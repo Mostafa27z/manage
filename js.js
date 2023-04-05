@@ -64,13 +64,13 @@ form[0].addEventListener('submit', (e)=>{
 	e.preventDefault();
 	if(em.value.trim()){
 		$(".danger").css("opacity","0");
-		$('#email').css("outline-style","none");
+		$('#email').css("border-style","none");
 	}
 	else{
 		$(".danger").css("opacity","1");
-		$('#email').css("outline-style","solid");
-		$('#email').css("outline-width","1px");
-		$('#email').css("outline-color","red");
+		$('#email').css("border-style","solid");
+		$('#email').css("border-width","1px");
+		$('#email').css("border-color","red");
 	}
 	
 })
