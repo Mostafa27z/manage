@@ -1,0 +1,286 @@
+*{
+	font-family: sans-serif;
+	transition: all 0.5s;
+	box-sizing: content-box;
+
+	padding: 0;
+	margin: 0;
+	
+	
+}
+
+.get{
+	background-color: hsl(12, 88%, 59%);
+	color: white;
+	border-style: none;
+	border-radius: 20px;
+	padding: 10px 20px;
+	font-size: 14px;
+}
+.get:hover{
+	background-color: hsl(12, 88%, 67%);
+}
+.nv{
+	display: flex;
+	justify-content: space-between !important;
+	
+}
+
+.navbar-collapse {
+    
+    flex-grow: 0.6;
+
+}
+nav .col{
+	display: flex;
+	justify-content: space-between;
+}
+@media(max-width: 992px){
+.nv{
+	display: flex;
+	justify-content: space-between !important;
+	
+	}
+	nav .col{
+	display: block;
+}
+}
+/*intro*/
+.intro{
+	display: flex;
+	justify-content: center;
+	grid-gap: 50px;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 50px;
+	padding: 10px 50px;
+
+}
+.intro div{
+	width: 400px;
+}
+.intro img{
+	width: 100%;
+}
+p{
+	color: hsl(227, 12%, 61%);
+	
+}
+.intro p{
+	width: 90%;
+}
+.intro h1{
+	font-weight: bold;
+	color: hsl(228, 39%, 23%);
+	font-size: 40px;
+}
+.intro h2{
+	font-weight: bold;
+	color: hsl(228, 39%, 23%);
+	font-size: 35px;
+}
+section > span{
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: hsl(12, 88%, 59%);
+	height: 22px;
+	color: white;
+	font-weight: bold;
+}
+p span {
+	display: block;
+	color: hsl(228, 39%, 23%);
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.intro div section{
+	display: flex;
+	grid-gap: 30px;
+}
+.tw{
+	align-items: flex-start;
+}
+@media(max-width: 950px){
+	.intro{
+		flex-direction: column-reverse;
+	}
+	.intro div{
+	width: 90%;
+	text-align: center;
+	}
+	h1{
+		font-size: 30px !important;
+	}
+}
+.wht{
+	font-weight: bold;
+	color: hsl(228, 39%, 23%);
+	font-size: 35px;
+	text-align: center;
+}
+/*rev*/
+.rev{
+	display: flex;
+	justify-content: center;
+	grid-gap: 20px;
+	flex-wrap: wrap;
+}
+.rev div{
+	width: 370px;
+	text-align: center;
+	background-color: hsl(13, 100%, 96%);
+	border-radius: 7px;
+	margin-top: 60px;
+	padding: 5px 15px;
+}
+.rev div img{
+	width: 60px;
+	margin-top: -30px;
+}
+.rev h4{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 0;
+}
+.f{
+	margin: 40px auto;
+	display: block;
+}
+.spns{
+	display: none;
+	display: flex;
+	grid-gap: 5px;
+	justify-content: center;
+	margin-top: 10px;
+	
+}
+.spn{
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-radius: 50%;
+	cursor: pointer;
+	border-color: hsl(12, 88%, 59%);
+}
+@media(max-width: 950px){
+	.tw div {
+		text-align: left;
+		margin: auto;
+	}
+	.tw div h2 {
+		text-align: center;
+	}
+	.tw div p {
+		margin: 20px auto;
+	}
+}
+.end{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	background-color:  hsl(12, 88%, 59%);
+	color: white !important;
+	padding: 50px 10px;
+}
+.end h3{
+	color: hsl(228, 39%, 23%);
+	font-size: 32px;
+	width: 380px;
+	font-weight: bold;
+	color: white;
+}
+.end .get{
+	color: hsl(12, 88%, 59%);
+	background-color: white;
+	font-weight: bold;
+
+}
+@media(max-width: 700px){
+	.end{
+		justify-content: center;
+	}
+	.end h3{
+		width:90%;
+		margin: auto;
+		text-align: center;
+
+	}
+}
+footer {
+	background-color: hsl(233, 12%, 13%);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 0;
+	flex-wrap: wrap !important;
+}
+footer div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 150px;
+}
+.soc{
+	display: flex;
+	grid-gap: 7px;
+	justify-content: center;
+}
+.soc img{
+	cursor: pointer;
+
+}
+ .soc img:hover {
+	filter: invert(50%);
+}
+footer a {
+	text-decoration: none;
+	color: white;
+
+}
+footer a:hover{
+	color: hsl(12, 88%, 59%);
+}
+.link{
+	grid-gap: 50px;
+	text-align: center;
+}
+form{
+	display: flex;
+	justify-content: center;
+	grid-gap: 30px;
+}
+form input{
+	padding: 5px 10px;
+	border-radius: 20px;
+	border-style: none;
+
+}
+input:active ,input:focus{
+	outline-style: none;
+}
+input[type="submit"]{
+	background-color: hsl(12, 88%, 59%);
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+}
+.danger {
+	opacity: 0;
+	color: red;
+	margin-left: 20px ;
+	margin-top: 7px;
+}
+@media(max-width: 1200px){
+	footer {
+		flex-direction: column;
+		grid-row-gap: 30px;
+		text-align: center;
+		justify-content: center;
+	}
+	.danger{
+		text-align:center;
+		margin-left: 0
+	}
+}
